@@ -1,0 +1,6 @@
+framework module Pods_DecoHub {
+  umbrella header "Pods-DecoHub-umbrella.h"
+
+  export *
+  module * { export * }
+}
