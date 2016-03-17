@@ -1,10 +1,16 @@
 PODS:
+  - pop (1.0.9)
   - SwiftHEXColors (1.0.2)
+  - WYMaterialButton (1.2.1):
+    - pop (~> 1.0)
 
 DEPENDENCIES:
   - SwiftHEXColors
+  - WYMaterialButton
 
 SPEC CHECKSUMS:
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   SwiftHEXColors: 1238ce6ee5c698ef9caf00fad72876602ecd9df6
+  WYMaterialButton: 4ad7428ab02c3e89f97f04482a84b57170008d91
 
 COCOAPODS: 0.39.0

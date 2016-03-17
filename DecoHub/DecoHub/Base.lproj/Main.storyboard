@@ -29,7 +29,6 @@
         <!--it-->
         <scene sceneID="4Mg-H1-fRf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4sc-yq-KyC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="3" id="8uw-9h-m0j" userLabel="it" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j7Q-nU-arl"/>
@@ -42,6 +41,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="QSp-ZH-dsS"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sc-yq-KyC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="820" y="556"/>
         </scene>
@@ -89,15 +89,20 @@
                                 </constraints>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jsr-m0-BD9">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jsr-m0-BD9" customClass="WYMaterialButton" customModule="WYMaterialButton">
                                 <rect key="frame" x="0.0" y="525" width="320" height="43"/>
-                                <color key="backgroundColor" red="1" green="0.6588235294117647" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="0.13" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ArI-a3-PfL"/>
                                 </constraints>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99222355261091311" green="0.95449033174255671" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="materialPressedColor">
+                                        <color key="value" red="0.67426273458445041" green="0.66049779767647399" blue="0.64765878569691571" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="NextButton:" destination="8FF-fI-o0x" eventType="touchUpInside" id="cim-ad-rA8"/>
                                 </connections>
@@ -144,7 +149,7 @@
         <!--Detail-->
         <scene sceneID="BZF-la-M2e">
             <objects>
-                <viewController id="VOZ-z5-uZp" sceneMemberID="viewController">
+                <viewController id="VOZ-z5-uZp" customClass="RequestDetailViewController" customModule="DecoHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7JW-2B-ifX"/>
                         <viewControllerLayoutGuide type="bottom" id="eoz-Tv-E6k"/>
@@ -152,7 +157,36 @@
                     <view key="view" contentMode="scaleToFill" id="oEa-0Y-ej5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyM-fZ-3DP" customClass="WYMaterialButton" customModule="WYMaterialButton">
+                                <rect key="frame" x="0.0" y="525" width="320" height="43"/>
+                                <color key="backgroundColor" red="1" green="0.6588235294" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="4ez-VL-sSD"/>
+                                </constraints>
+                                <state key="normal" title="Confirm">
+                                    <color key="titleColor" red="0.99222355259999995" green="0.95449033169999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="materialColor">
+                                        <color key="value" red="1" green="0.6588235294" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="materialPressedColor">
+                                        <color key="value" red="1" green="0.78261305110316104" blue="0.26027613311259412" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="NextButton:" destination="8FF-fI-o0x" eventType="touchUpInside" id="8FD-IP-fAF"/>
+                                    <action selector="confirmButton:" destination="VOZ-z5-uZp" eventType="touchUpInside" id="dMK-tJ-baA"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eoz-Tv-E6k" firstAttribute="top" secondItem="SyM-fZ-3DP" secondAttribute="bottom" id="9er-wB-jAm"/>
+                            <constraint firstItem="SyM-fZ-3DP" firstAttribute="leading" secondItem="oEa-0Y-ej5" secondAttribute="leadingMargin" constant="-20" id="NhU-Tf-zI5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SyM-fZ-3DP" secondAttribute="trailing" constant="-20" id="Y4a-pp-0th"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="Gz5-nG-JSv"/>
                 </viewController>
@@ -288,7 +322,6 @@
         <!--Request Navigation View Controller-->
         <scene sceneID="nPl-eI-WvE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FbR-eV-lCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GDu-lw-Ckg" customClass="RequestNavigationViewController" customModule="DecoHub" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -307,6 +340,7 @@
                         <segue destination="8FF-fI-o0x" kind="relationship" relationship="rootViewController" id="lsf-hi-kK4"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FbR-eV-lCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-228" y="981"/>
         </scene>
@@ -314,4 +348,5 @@
     <resources>
         <image name="cross_icon.png" width="16" height="16"/>
     </resources>
+    <color key="tintColor" red="1" green="0.6588235294" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
 </document>

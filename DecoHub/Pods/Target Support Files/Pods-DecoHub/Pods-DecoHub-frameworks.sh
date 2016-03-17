@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-DecoHub/SwiftHEXColors.framework"
+  install_framework "Pods-DecoHub/WYMaterialButton.framework"
+  install_framework "Pods-DecoHub/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-DecoHub/SwiftHEXColors.framework"
+  install_framework "Pods-DecoHub/WYMaterialButton.framework"
+  install_framework "Pods-DecoHub/pop.framework"
 fi

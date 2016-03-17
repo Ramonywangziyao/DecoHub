@@ -22,6 +22,7 @@
 		DA4451B21C9A41E400AA106F /* RequestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4451B11C9A41E400AA106F /* RequestButtonView.swift */; };
 		DA4451B41C9A4E9700AA106F /* RequestNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4451B31C9A4E9700AA106F /* RequestNavigationViewController.swift */; };
 		DA4451B71C9A560F00AA106F /* cross_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451B61C9A560F00AA106F /* cross_icon@2x.png */; };
+		DA4451B91C9AFDFE00AA106F /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4451B81C9AFDFE00AA106F /* RequestDetailViewController.swift */; };
 		F26448C4ED64742099484F20 /* Pods_DecoHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A0C9DC6C2A62CFA8A58BE /* Pods_DecoHub.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		DA4451B11C9A41E400AA106F /* RequestButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestButtonView.swift; sourceTree = "<group>"; };
 		DA4451B31C9A4E9700AA106F /* RequestNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestNavigationViewController.swift; sourceTree = "<group>"; };
 		DA4451B61C9A560F00AA106F /* cross_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_icon@2x.png"; sourceTree = "<group>"; };
+		DA4451B81C9AFDFE00AA106F /* RequestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDetailViewController.swift; sourceTree = "<group>"; };
 		F6CEA0093E1DA8178301049F /* Pods-DecoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-DecoHub/Pods-DecoHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +195,7 @@
 				DA4451A01C98872500AA106F /* MainTabViewController.swift */,
 				DA4451A21C98919C00AA106F /* StyleSelectViewController.swift */,
 				DA4451B31C9A4E9700AA106F /* RequestNavigationViewController.swift */,
+				DA4451B81C9AFDFE00AA106F /* RequestDetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				DA4451A11C98872500AA106F /* MainTabViewController.swift in Sources */,
 				DA4451711C98854B00AA106F /* DecoHub.xcdatamodeld in Sources */,
 				DA4451B21C9A41E400AA106F /* RequestButtonView.swift in Sources */,
+				DA4451B91C9AFDFE00AA106F /* RequestDetailViewController.swift in Sources */,
 				DA4451B41C9A4E9700AA106F /* RequestNavigationViewController.swift in Sources */,
 				DA4451A31C98919C00AA106F /* StyleSelectViewController.swift in Sources */,
 				DA44519D1C98866700AA106F /* MainHubViewController.swift in Sources */,

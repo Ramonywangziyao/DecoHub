@@ -7,65 +7,256 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		349A2B6DC3BD2CFF4A22120A48E772E1 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61B948B6C573B93171D3CC4A6C0011 /* SwiftHEXColors.swift */; };
-		36DC116ECAA6E2DA8FBE1227DE5A78CD /* Pods-DecoHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C116EC403D80D703BDB6F16D74D8E36 /* Pods-DecoHub-dummy.m */; };
-		4ABB1B9D6A6443CD696C407AFD84EC8C /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3B6C166C320199573D1DF56FD3D60E /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ECB2BBE4DC7585910FF94D282FF637F /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = C265DA3D31FDD3AF6EC32E1C06DC85DE /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		969EBF6C78173FB88DC99FE45EDA4611 /* Pods-DecoHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC93CA75E94AF19F8B35B7BAF8021D50 /* Pods-DecoHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC4A105FE34ECF9FC68A018BE07A184D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C5F397A8DB96376281E93A515BC7B15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F511C03AA3AAA3D27135734A2C110CD9 /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9C8060DC4E7C2665A9FD4E1980D37 /* SwiftHEXColors-dummy.m */; };
+		122BE3E27CC4AE5B8A3EDB1984A0B339 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD73F57632F4A8A6C6AD6D27EAF7857 /* TransformationMatrix.cpp */; };
+		152F2C6C2481AFFB5BE446BA28030EC0 /* WYMaterialButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A50E62B388BE7BB7C005B7FD9C50E361 /* WYMaterialButton.bundle */; };
+		184BD8FDD146106C6654744FD8499F95 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3E9B2F7CE6DB7C172236A88EC97486E /* POPLayerExtras.mm */; };
+		1BEB60CEF5747498282F13FC28A68D3C /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 244AEFDE304243AFC1D898C64EF7B2A1 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AED506882BF775429E60BC28CC74929 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B053D0CBBDD20BDCC2DA99EEA98E20 /* Spring.swift */; };
+		2D1E248EBB03BF2758EEFF047CCBE08D /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC116707EBFE8D8B66CC5F89C3CF708 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35051DCAFB0735A623113D4445364B39 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4EBAFACA9097C2C89FA0E7B616B57 /* POPPropertyAnimation.mm */; };
+		36F3A6E287B84A4B707F0FAF614264DF /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = C8632976BC024687D8626D30914A2FE9 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A13B06C29CC6D833EBD7EC2145FD6DA /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4871BAFD3AF3A0AFE21F6C9B9AC97B /* SwiftHEXColors-dummy.m */; };
+		3BB651535E686528450ADF95B6A35F64 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E8679AD97E333CCBC85B972463DCBC /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40733099EDA8D59D9FFDD7324FB33350 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D6C5FA7F7808B7E6D1B2358CC8115A /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4111A88216E27CC27E8FA23C2E180568 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0B4B87EBDB8CB8BDD700A1F584EFB8 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		424463A7B66F0559ABDA7E4C16B81127 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 395E7437A20126BFC9816CBD48387240 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43594764A20377AA441755194C5F9420 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B48A07983B6721489B9A4BAA33FAE /* SpringButton.swift */; };
+		43E3B25E4ACC0352361A3A37B5E8922E /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA2197A5E914B340411BF4CC0D17A13F /* POPDecayAnimation.mm */; };
+		45E73E273E67C220E55D36F11CBC4270 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE057B7800B2DECB9B1A020F98A3522 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46C8D6156D8E4E110EE8EE0BE328B804 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 5385201A613F8F5AD52E361947C1FF0D /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4862C876903BE4BD253290825CD06A4E /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9663E8ED1B3DD4CC4774A5714ADD7C18 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49179ADD1D5857EE433512628C4DBA18 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F44BB3F881761CCF1E90F9A5A229F68 /* POPBasicAnimation.mm */; };
+		49BDA6A9F65EB58353DDF35BE17396F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */; };
+		4A0888F071FE6E7EA197AB4D6DCE89E9 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DECBD23B1E7CAFC66EA5FD3F2E8CF /* POPAnimationExtras.mm */; };
+		4F18BB365B292A9710345802422409A3 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95B721DC533CB5FC2DC3FEE33EB452 /* SwiftHEXColors.swift */; };
+		4FBFFAA4792109D5D1477CE404F914EA /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 62631F431A410CA16AA389AC5F964719 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		567641ACCCE9BBD5DE41555CF6EF225F /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDE0FD856CDFC2F6A9DE13320F0A53A /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5968E707224C2CFFB4CFC1FABE29BBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */; };
+		5ABAA8EDBA657CFB9759537A2BF15EAA /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A80C4E1BF0564EC32C87ECD4C46897 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ACE95C819A2FAEF7C2599D9FB8FB2C5 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F22E5075DAF2CD88D04AFB57009AF18B /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6023D9092ECD6664A60842CA8BB39E6B /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 051EE57BDCDDFEF11F344FF1CEACAFFF /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		610F21D24229F3CF5945CC084ADE5F9B /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC10D8A03A4AD6086DCBD17E3276E091 /* POPSpringAnimation.mm */; };
+		611901E9D7E9BD583902AD0AC556A03B /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEE208C0281B59452CC26D156B53A6 /* SpringAnimation.swift */; };
+		622B2D9F5AA6A748438AC2B2C0675B92 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */; };
+		628A3D0DC95A06CDF26225173FD50861 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1213A346ED95AD74E5B80A9AF38AEF /* pop-dummy.m */; };
+		644F5A6A1E9D3004CF7B734ECCA23316 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = B4ED5D194D1F97578E865A7771CA1B15 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C2E6CBE6FA83ADCDFB8EBEB264C2339 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = FF077D44E4C9A0A1A3DF880921443A93 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DFCB83CD5C147B853F655DFD8A4AD89 /* WYMaterialButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3D6CA0250D38D5AD0502A76A29E5A1 /* WYMaterialButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB0A03B6F34B48A73ECBCB303DC27C9 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A94B8311BF6B558156DAA8F6DC9B617D /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E5FF82D3AC8BBA3798B1451392F151 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 60556CD4FF873FF4AC034CFB6BC98804 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721C8276F39DCD9790B1F974F20D8C1C /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = D823C5998B5007278156C37CEAB0E2FD /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755905BD599E9A27254E6A75C6AE0017 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3511231735D8D150408D3A7B0D1E0 /* POPVector.mm */; };
+		7AC3CC4ECC0856FE0643CF947E1676ED /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3287ED6347CD8699FD9B784F184226 /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898CE1D1FE639DBF47F3B2F40FAC649B /* WYMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E530D85D811BBDFC58FC0F19787D3A /* WYMaterialButton.swift */; };
+		8A62E3B15B78CFB4DB99EF0B99E5AD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */; };
+		8AA8A94269630794AF6B4023E2DDC568 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3FC483023554A9838EDF38329CB92DA /* POPAnimationEvent.mm */; };
+		8D3235AB4938345EC74307C388CC67E1 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3B77FDB825C5DA73576E3961E94329 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E6E998494242E4C38185661580B1E7C /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9399FF6463C25746113492C29D9130E2 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FFE316EE70A1BEAEE072E6371D28CBA /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1893FA9BD0B5823E67196CF9435CF25 /* POPAnimator.mm */; };
+		927A6A3C9FB9DB820459799A43FB50F0 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 97A97D8805FC5402273907E07624FFF8 /* POPGeometry.mm */; };
+		96B670C68610460337CF60AA93757662 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = F660B4D823A2BB1CE60B272C7FDD6D8D /* POPAnimatableProperty.mm */; };
+		9F43C1899AD0FF2738C52652F6D80F6A /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F919E27ECF3D7ACF9B15AC86FAB11C1 /* POPMath.mm */; };
+		A0CDDDF39613951BDC75E48783C75E30 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAF795FD3193B2D9140DB338A7499E2 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A17A3138B5DC84BA39AD49DE2F888167 /* WYMaterialButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD3AC279B654DE237619570783C7AC /* WYMaterialButton-dummy.m */; };
+		A757B5AA81D38A4EF518580A683EFDE2 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EC217C7D1458525D144D1CDA16520AA4 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3862C6BFEFDB5FEE9A6C207BED5ACB6 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E1483D86E027E7CF2B79888B207AC51C /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0825701B25FAA292531D796760C6673 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB89F94F1B2D41428C3D041FE7ACF7D /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D57F79F41191EC9C47A483C7D97562 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F543FF84252CC076223D8F50A0B2C /* POPCGUtils.mm */; };
+		C2175A743F6A04111FE78F06956C3EB5 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 666E52E1C165B2668AE8A95085DCE17D /* POPAnimationTracer.mm */; };
+		C26201A5729DD66B7E04FFEA1819E747 /* Pods-DecoHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC93CA75E94AF19F8B35B7BAF8021D50 /* Pods-DecoHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C547C23CA31C443D2927CE1F152AD1 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C19C47492A76D89C881CD23C0CC8C /* POPAnimationRuntime.mm */; };
+		CF22BB5256B041F365CDD828F6DF0585 /* Pods-DecoHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C116EC403D80D703BDB6F16D74D8E36 /* Pods-DecoHub-dummy.m */; };
+		D12486DCE1FDBBFF0F1A6463DFA0235E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644EF83D0D5213977A9E6C48269D6550 /* UIKit.framework */; };
+		D18F9D361787352A46574C310EC5021F /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E4C9EE8780E2EABD1C65EC84902BF3 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C4B5889F23CFEF13FEBB4036665840 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E11D0C821A4FA3616A0307761631882 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CDD5BAADBA856784C85EE17F73C4D7 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB1AE61F1EF53151B30AEE258B36BE2 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC143BF8B19B4B9EA7C1C5901500DCE8 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C9366E6BFDF20EBE9445CE19033C91 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE36A0217E53CCC5A60EF3B649172E79 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A40DF8AF465F21E23A1CB71E7E9C03C3 /* POPCustomAnimation.mm */; };
+		E45F03569121AF8823E6BC4A2EB5173F /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 63837A2C5980AE4839A6C3356637AB90 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7E6F793E0AD1D61BF3C91192950D689 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8879A75B0CDCF299641CFE6CEA0DBBC7 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA5775A13BE6C67B911F229B9D93B228 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 56390742EA523AB319A517967E068A0F /* POPAnimation.mm */; };
+		EE6BEAA6C1DEE6A0CB5C3E6CFF84445C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60721044D1C3EC20DEEC451CA68EFCB5 /* DesignableButton.swift */; };
+		F1AED8EC530BB73B46E6B06082AE4F97 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF4ABEB667D1D0943B498E416ED5E3A /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2879F506987ABE22218A1A8FC06CDBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */; };
+		F4887AED54DE8C4199E2EE9C81429B7A /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F137757398D4F5F4DA802DF25F985E55 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC0EB7C2A988DAB19A6BCDFB5676A5B5 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE61BED795D57382EDFE1D66C809154 /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47966490F120BC9165C3911128BA21FF /* PBXContainerItemProxy */ = {
+		1B86799BA222ECC52F06FD260A725C61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08E7F213E8546CA31791ED0388F4AF52;
+			remoteGlobalIDString = 8FE0758CCCF7F68AB545677FE3475889;
+			remoteInfo = pop;
+		};
+		6C598732BEAABBED4D1D06691D0332B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89270F323B7F639F9185762ED8A3811;
+			remoteInfo = WYMaterialButton;
+		};
+		775C5354B03ADC44EADF1DD854B1FD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE0758CCCF7F68AB545677FE3475889;
+			remoteInfo = pop;
+		};
+		AD30158947BFE28E34B8814271999617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF0A8FC67B1DA5CC52E626BBEEA1C2F;
+			remoteInfo = "WYMaterialButton-WYMaterialButton";
+		};
+		CACFEC0DAD207786BEC4F66E5B6D0E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3F330D7D41122ECDC78524EF987057;
 			remoteInfo = SwiftHEXColors;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AB9C8060DC4E7C2665A9FD4E1980D37 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		01144974B2DF58603DE733A67C6FF88F /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		051EE57BDCDDFEF11F344FF1CEACAFFF /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		0E8DE32807614E963C708727D343FD64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E95B721DC533CB5FC2DC3FEE33EB452 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		0F7DECBD23B1E7CAFC66EA5FD3F2E8CF /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D6095F3C6E5F1D59315A611CBFA13E /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
+		1B2F543FF84252CC076223D8F50A0B2C /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		1B4398CE3ACF72EDE8404C09A38E8795 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
 		1DCE389CE22A3E0B6D733F7605B29BF2 /* Pods-DecoHub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecoHub-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EEEE208C0281B59452CC26D156B53A6 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Pod/Classes/SpringAnimation.swift; sourceTree = "<group>"; };
+		244AEFDE304243AFC1D898C64EF7B2A1 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
 		2C116EC403D80D703BDB6F16D74D8E36 /* Pods-DecoHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecoHub-dummy.m"; sourceTree = "<group>"; };
+		2C3D6CA0250D38D5AD0502A76A29E5A1 /* WYMaterialButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYMaterialButton-umbrella.h"; sourceTree = "<group>"; };
 		2E3EE06F3621871BA6C0C85354C6461F /* Pods-DecoHub-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecoHub-resources.sh"; sourceTree = "<group>"; };
 		2E437244C7E8BD17654776F873E0FEB8 /* Pods-DecoHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DecoHub.modulemap"; sourceTree = "<group>"; };
+		2F44BB3F881761CCF1E90F9A5A229F68 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		33E9D6909FEA420C837C968A71293819 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F11EC87B37F42B86B1EEABAF597D27 /* Pods-DecoHub-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecoHub-frameworks.sh"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		402C0070C992BDB35C96CE9F5507F9CB /* Pods_DecoHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A61B948B6C573B93171D3CC4A6C0011 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
-		521D0CA45562BC99EB8014ACA42D1793 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
-		5302E2C1C45A705B147F89BE9DF8BA56 /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
+		395E7437A20126BFC9816CBD48387240 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		3987D17110DD5F7D99AD379D4600B01B /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB89F94F1B2D41428C3D041FE7ACF7D /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		4BB4EBAFACA9097C2C89FA0E7B616B57 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		4EB1AE61F1EF53151B30AEE258B36BE2 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		4F919E27ECF3D7ACF9B15AC86FAB11C1 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		5385201A613F8F5AD52E361947C1FF0D /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		54B053D0CBBDD20BDCC2DA99EEA98E20 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Pod/Classes/Spring.swift; sourceTree = "<group>"; };
+		56390742EA523AB319A517967E068A0F /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		5CC3511231735D8D150408D3A7B0D1E0 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		5E3B77FDB825C5DA73576E3961E94329 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		60556CD4FF873FF4AC034CFB6BC98804 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		60721044D1C3EC20DEEC451CA68EFCB5 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Pod/Classes/DesignableButton.swift; sourceTree = "<group>"; };
+		62631F431A410CA16AA389AC5F964719 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		63837A2C5980AE4839A6C3356637AB90 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		63A80C4E1BF0564EC32C87ECD4C46897 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		644EF83D0D5213977A9E6C48269D6550 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		661EF106097BF8D9D05963ECA08B5CA7 /* Pods_DecoHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666E52E1C165B2668AE8A95085DCE17D /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		6CD73F57632F4A8A6C6AD6D27EAF7857 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		6E11D0C821A4FA3616A0307761631882 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		6F3287ED6347CD8699FD9B784F184226 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
 		72C31CDC88B763AB94335A25C71BD527 /* Pods-DecoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoHub.release.xcconfig"; sourceTree = "<group>"; };
+		74D6C5FA7F7808B7E6D1B2358CC8115A /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		76E8679AD97E333CCBC85B972463DCBC /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		7A4C19C47492A76D89C881CD23C0CC8C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		7B4871BAFD3AF3A0AFE21F6C9B9AC97B /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83C9366E6BFDF20EBE9445CE19033C91 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		85E4C9EE8780E2EABD1C65EC84902BF3 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
 		880CCA9D2C7F85613B275B3639DA49A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC3B6C166C320199573D1DF56FD3D60E /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		8879A75B0CDCF299641CFE6CEA0DBBC7 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		8BE61BED795D57382EDFE1D66C809154 /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		8CAD3AC279B654DE237619570783C7AC /* WYMaterialButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYMaterialButton-dummy.m"; sourceTree = "<group>"; };
+		8D0B4B87EBDB8CB8BDD700A1F584EFB8 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		8DC116707EBFE8D8B66CC5F89C3CF708 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		90F288D6CFA4E0F5218DDF42CB7ED743 /* WYMaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYMaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9399FF6463C25746113492C29D9130E2 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		9448327C4DFD268EAA7E837D37DC71E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9663E8ED1B3DD4CC4774A5714ADD7C18 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		97A97D8805FC5402273907E07624FFF8 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		9FF4ABEB667D1D0943B498E416ED5E3A /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		A3E9B2F7CE6DB7C172236A88EC97486E /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		A40DF8AF465F21E23A1CB71E7E9C03C3 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		A50E62B388BE7BB7C005B7FD9C50E361 /* WYMaterialButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYMaterialButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94B8311BF6B558156DAA8F6DC9B617D /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		ACE057B7800B2DECB9B1A020F98A3522 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		B2A1928BE762EC0B743578FE241D8C80 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = pop.modulemap; sourceTree = "<group>"; };
+		B3FC483023554A9838EDF38329CB92DA /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		B4ED5D194D1F97578E865A7771CA1B15 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
 		B5A7448CEA3E9AEFE7DB57E733FDF99A /* Pods-DecoHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoHub.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C265DA3D31FDD3AF6EC32E1C06DC85DE /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
+		BC10D8A03A4AD6086DCBD17E3276E091 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C8632976BC024687D8626D30914A2FE9 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		CCAF795FD3193B2D9140DB338A7499E2 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		D1893FA9BD0B5823E67196CF9435CF25 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		D823C5998B5007278156C37CEAB0E2FD /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
+		D9A17532F217200CECA0433EE6DCE51F /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		DB1213A346ED95AD74E5B80A9AF38AEF /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
 		DB286AF972208FCCC86D271955510C9B /* Pods-DecoHub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecoHub-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3E18E1C2579BFB07F1FF612E8F423F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E97186B5AFCA4D522F7DCAAF045F2DC4 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
-		F37177D34C9BB76EFB6FACF62B4006DF /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05D5100B064A4E1E3899D7BDE074DA /* WYMaterialButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYMaterialButton-prefix.pch"; sourceTree = "<group>"; };
+		E1483D86E027E7CF2B79888B207AC51C /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		E48B48A07983B6721489B9A4BAA33FAE /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Pod/Classes/SpringButton.swift; sourceTree = "<group>"; };
+		EA2197A5E914B340411BF4CC0D17A13F /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		EC217C7D1458525D144D1CDA16520AA4 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		ECDE0FD856CDFC2F6A9DE13320F0A53A /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		EE44C5DCA05147038087946E278C998B /* WYMaterialButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WYMaterialButton.modulemap; sourceTree = "<group>"; };
+		F137757398D4F5F4DA802DF25F985E55 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		F207C5FF49E7A2D7F8DB2F233F630AF8 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22E5075DAF2CD88D04AFB57009AF18B /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYMaterialButton.xcconfig; sourceTree = "<group>"; };
+		F5A068E0D4D7886E971EA04EA9E6F68B /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		F660B4D823A2BB1CE60B272C7FDD6D8D /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		F6E530D85D811BBDFC58FC0F19787D3A /* WYMaterialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYMaterialButton.swift; path = Pod/Classes/WYMaterialButton.swift; sourceTree = "<group>"; };
 		FC93CA75E94AF19F8B35B7BAF8021D50 /* Pods-DecoHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecoHub-umbrella.h"; sourceTree = "<group>"; };
+		FF077D44E4C9A0A1A3DF880921443A93 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		484181B200B328F33CCA7173ED46EE50 /* Frameworks */ = {
+		037C0C20888B624F14E3F1776C1E4331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4A105FE34ECF9FC68A018BE07A184D /* Foundation.framework in Frameworks */,
+				F2879F506987ABE22218A1A8FC06CDBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B1C93B488161A2F7A85C886A557DA16 /* Frameworks */ = {
+		127F4CB292CB43785201434613D11130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F397A8DB96376281E93A515BC7B15A /* Foundation.framework in Frameworks */,
+				5968E707224C2CFFB4CFC1FABE29BBCA /* Foundation.framework in Frameworks */,
+				622B2D9F5AA6A748438AC2B2C0675B92 /* pop.framework in Frameworks */,
+				D12486DCE1FDBBFF0F1A6463DFA0235E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9AE07FEF734EB6880F30A908C94428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BDA6A9F65EB58353DDF35BE17396F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C0BE7CFE6039DD1E28F9F01D04880C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A62E3B15B78CFB4DB99EF0B99E5AD15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15D095966CBAA8A915C1982A3945F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +269,20 @@
 				57EA64569E2886864C49FB46F5544709 /* Pods-DecoHub */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1641726530928F91F171D15FADB37B2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9448327C4DFD268EAA7E837D37DC71E3 /* Info.plist */,
+				01144974B2DF58603DE733A67C6FF88F /* SwiftHEXColors.modulemap */,
+				14D6095F3C6E5F1D59315A611CBFA13E /* SwiftHEXColors.xcconfig */,
+				7B4871BAFD3AF3A0AFE21F6C9B9AC97B /* SwiftHEXColors-dummy.m */,
+				1B4398CE3ACF72EDE8404C09A38E8795 /* SwiftHEXColors-prefix.pch */,
+				8BE61BED795D57382EDFE1D66C809154 /* SwiftHEXColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
 			sourceTree = "<group>";
 		};
 		57EA64569E2886864C49FB46F5544709 /* Pods-DecoHub */ = {
@@ -98,104 +303,283 @@
 			path = "Target Support Files/Pods-DecoHub";
 			sourceTree = "<group>";
 		};
-		643EF5A3C165FDF63B0AA5963609D6B0 /* Pods */ = {
+		781C2E01FB9548DB7386A5BA66023B3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7EE78F953F95B965777D3D4D3D30987F /* SwiftHEXColors */,
+				AC315C00AA55F5F239784645A32DF861 /* pop */,
+				905E4174DFFB33DB74A3BE8A775809F8 /* SwiftHEXColors */,
+				E5F5AAE6CC6A8CFD803775B4F62C44E4 /* WYMaterialButton */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B0F3FFB9AC766D12EC7E1AF92E9222D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */,
+				B78B7B9BE62344536DBDA84478343F1D /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				643EF5A3C165FDF63B0AA5963609D6B0 /* Pods */,
-				C4A62419B2BBC7888E7AB236249C4981 /* Products */,
+				7B0F3FFB9AC766D12EC7E1AF92E9222D /* Frameworks */,
+				781C2E01FB9548DB7386A5BA66023B3E /* Pods */,
+				CAFDA260C2C94E5BEB8FB0F18B47EAC4 /* Products */,
 				0BFB68C37D6AE70B2E1098FF36B8136D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EE78F953F95B965777D3D4D3D30987F /* SwiftHEXColors */ = {
+		905E4174DFFB33DB74A3BE8A775809F8 /* SwiftHEXColors */ = {
 			isa = PBXGroup;
 			children = (
-				C265DA3D31FDD3AF6EC32E1C06DC85DE /* SwiftHEXColors.h */,
-				4A61B948B6C573B93171D3CC4A6C0011 /* SwiftHEXColors.swift */,
-				8E8929D701F51A3835DB20DAEB6053B2 /* Support Files */,
+				D823C5998B5007278156C37CEAB0E2FD /* SwiftHEXColors.h */,
+				0E95B721DC533CB5FC2DC3FEE33EB452 /* SwiftHEXColors.swift */,
+				1641726530928F91F171D15FADB37B2B /* Support Files */,
 			);
 			path = SwiftHEXColors;
 			sourceTree = "<group>";
 		};
-		8E8929D701F51A3835DB20DAEB6053B2 /* Support Files */ = {
+		AC315C00AA55F5F239784645A32DF861 /* pop */ = {
 			isa = PBXGroup;
 			children = (
-				E3E18E1C2579BFB07F1FF612E8F423F2 /* Info.plist */,
-				521D0CA45562BC99EB8014ACA42D1793 /* SwiftHEXColors.modulemap */,
-				5302E2C1C45A705B147F89BE9DF8BA56 /* SwiftHEXColors.xcconfig */,
-				1AB9C8060DC4E7C2665A9FD4E1980D37 /* SwiftHEXColors-dummy.m */,
-				E97186B5AFCA4D522F7DCAAF045F2DC4 /* SwiftHEXColors-prefix.pch */,
-				AC3B6C166C320199573D1DF56FD3D60E /* SwiftHEXColors-umbrella.h */,
+				FF077D44E4C9A0A1A3DF880921443A93 /* FloatConversion.h */,
+				9663E8ED1B3DD4CC4774A5714ADD7C18 /* POP.h */,
+				8D0B4B87EBDB8CB8BDD700A1F584EFB8 /* POPAction.h */,
+				A94B8311BF6B558156DAA8F6DC9B617D /* POPAnimatableProperty.h */,
+				F660B4D823A2BB1CE60B272C7FDD6D8D /* POPAnimatableProperty.mm */,
+				74D6C5FA7F7808B7E6D1B2358CC8115A /* POPAnimation.h */,
+				56390742EA523AB319A517967E068A0F /* POPAnimation.mm */,
+				76E8679AD97E333CCBC85B972463DCBC /* POPAnimationEvent.h */,
+				B3FC483023554A9838EDF38329CB92DA /* POPAnimationEvent.mm */,
+				244AEFDE304243AFC1D898C64EF7B2A1 /* POPAnimationEventInternal.h */,
+				6E11D0C821A4FA3616A0307761631882 /* POPAnimationExtras.h */,
+				0F7DECBD23B1E7CAFC66EA5FD3F2E8CF /* POPAnimationExtras.mm */,
+				E1483D86E027E7CF2B79888B207AC51C /* POPAnimationInternal.h */,
+				4EB1AE61F1EF53151B30AEE258B36BE2 /* POPAnimationPrivate.h */,
+				63837A2C5980AE4839A6C3356637AB90 /* POPAnimationRuntime.h */,
+				7A4C19C47492A76D89C881CD23C0CC8C /* POPAnimationRuntime.mm */,
+				60556CD4FF873FF4AC034CFB6BC98804 /* POPAnimationTracer.h */,
+				666E52E1C165B2668AE8A95085DCE17D /* POPAnimationTracer.mm */,
+				051EE57BDCDDFEF11F344FF1CEACAFFF /* POPAnimationTracerInternal.h */,
+				ACE057B7800B2DECB9B1A020F98A3522 /* POPAnimator.h */,
+				D1893FA9BD0B5823E67196CF9435CF25 /* POPAnimator.mm */,
+				CCAF795FD3193B2D9140DB338A7499E2 /* POPAnimatorPrivate.h */,
+				ECDE0FD856CDFC2F6A9DE13320F0A53A /* POPBasicAnimation.h */,
+				2F44BB3F881761CCF1E90F9A5A229F68 /* POPBasicAnimation.mm */,
+				EC217C7D1458525D144D1CDA16520AA4 /* POPBasicAnimationInternal.h */,
+				63A80C4E1BF0564EC32C87ECD4C46897 /* POPCGUtils.h */,
+				1B2F543FF84252CC076223D8F50A0B2C /* POPCGUtils.mm */,
+				9FF4ABEB667D1D0943B498E416ED5E3A /* POPCustomAnimation.h */,
+				A40DF8AF465F21E23A1CB71E7E9C03C3 /* POPCustomAnimation.mm */,
+				F22E5075DAF2CD88D04AFB57009AF18B /* POPDecayAnimation.h */,
+				EA2197A5E914B340411BF4CC0D17A13F /* POPDecayAnimation.mm */,
+				F137757398D4F5F4DA802DF25F985E55 /* POPDecayAnimationInternal.h */,
+				85E4C9EE8780E2EABD1C65EC84902BF3 /* POPDefines.h */,
+				395E7437A20126BFC9816CBD48387240 /* POPGeometry.h */,
+				97A97D8805FC5402273907E07624FFF8 /* POPGeometry.mm */,
+				5385201A613F8F5AD52E361947C1FF0D /* POPLayerExtras.h */,
+				A3E9B2F7CE6DB7C172236A88EC97486E /* POPLayerExtras.mm */,
+				8879A75B0CDCF299641CFE6CEA0DBBC7 /* POPMath.h */,
+				4F919E27ECF3D7ACF9B15AC86FAB11C1 /* POPMath.mm */,
+				9399FF6463C25746113492C29D9130E2 /* POPPropertyAnimation.h */,
+				4BB4EBAFACA9097C2C89FA0E7B616B57 /* POPPropertyAnimation.mm */,
+				8DC116707EBFE8D8B66CC5F89C3CF708 /* POPPropertyAnimationInternal.h */,
+				3CB89F94F1B2D41428C3D041FE7ACF7D /* POPSpringAnimation.h */,
+				BC10D8A03A4AD6086DCBD17E3276E091 /* POPSpringAnimation.mm */,
+				5E3B77FDB825C5DA73576E3961E94329 /* POPSpringAnimationInternal.h */,
+				B4ED5D194D1F97578E865A7771CA1B15 /* POPSpringSolver.h */,
+				83C9366E6BFDF20EBE9445CE19033C91 /* POPVector.h */,
+				5CC3511231735D8D150408D3A7B0D1E0 /* POPVector.mm */,
+				6CD73F57632F4A8A6C6AD6D27EAF7857 /* TransformationMatrix.cpp */,
+				62631F431A410CA16AA389AC5F964719 /* TransformationMatrix.h */,
+				C8632976BC024687D8626D30914A2FE9 /* UnitBezier.h */,
+				AFD117A3F0731E70CE91735ED6989145 /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		AFD117A3F0731E70CE91735ED6989145 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DE32807614E963C708727D343FD64 /* Info.plist */,
+				B2A1928BE762EC0B743578FE241D8C80 /* pop.modulemap */,
+				F5A068E0D4D7886E971EA04EA9E6F68B /* pop.xcconfig */,
+				DB1213A346ED95AD74E5B80A9AF38AEF /* pop-dummy.m */,
+				D9A17532F217200CECA0433EE6DCE51F /* pop-prefix.pch */,
+				6F3287ED6347CD8699FD9B784F184226 /* pop-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftHEXColors";
+			path = "../Target Support Files/pop";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B78B7B9BE62344536DBDA84478343F1D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				7CD41F83DDDEB65198B68E8301C9A384 /* Foundation.framework */,
+				644EF83D0D5213977A9E6C48269D6550 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4A62419B2BBC7888E7AB236249C4981 /* Products */ = {
+		CAFDA260C2C94E5BEB8FB0F18B47EAC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				402C0070C992BDB35C96CE9F5507F9CB /* Pods_DecoHub.framework */,
-				F37177D34C9BB76EFB6FACF62B4006DF /* SwiftHEXColors.framework */,
+				661EF106097BF8D9D05963ECA08B5CA7 /* Pods_DecoHub.framework */,
+				F207C5FF49E7A2D7F8DB2F233F630AF8 /* pop.framework */,
+				3987D17110DD5F7D99AD379D4600B01B /* SwiftHEXColors.framework */,
+				A50E62B388BE7BB7C005B7FD9C50E361 /* WYMaterialButton.bundle */,
+				90F288D6CFA4E0F5218DDF42CB7ED743 /* WYMaterialButton.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF676A9CEB5A032C057FDAE05FA15C7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E9D6909FEA420C837C968A71293819 /* Info.plist */,
+				EE44C5DCA05147038087946E278C998B /* WYMaterialButton.modulemap */,
+				F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */,
+				8CAD3AC279B654DE237619570783C7AC /* WYMaterialButton-dummy.m */,
+				DD05D5100B064A4E1E3899D7BDE074DA /* WYMaterialButton-prefix.pch */,
+				2C3D6CA0250D38D5AD0502A76A29E5A1 /* WYMaterialButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYMaterialButton";
+			sourceTree = "<group>";
+		};
+		E5F5AAE6CC6A8CFD803775B4F62C44E4 /* WYMaterialButton */ = {
+			isa = PBXGroup;
+			children = (
+				60721044D1C3EC20DEEC451CA68EFCB5 /* DesignableButton.swift */,
+				54B053D0CBBDD20BDCC2DA99EEA98E20 /* Spring.swift */,
+				1EEEE208C0281B59452CC26D156B53A6 /* SpringAnimation.swift */,
+				E48B48A07983B6721489B9A4BAA33FAE /* SpringButton.swift */,
+				F6E530D85D811BBDFC58FC0F19787D3A /* WYMaterialButton.swift */,
+				CF676A9CEB5A032C057FDAE05FA15C7F /* Support Files */,
+			);
+			path = WYMaterialButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54A4384752ADB9B8D99D67F5AAD0B280 /* Headers */ = {
+		2F9DC835773DCB39B932C867FAFA44C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				969EBF6C78173FB88DC99FE45EDA4611 /* Pods-DecoHub-umbrella.h in Headers */,
+				6DFCB83CD5C147B853F655DFD8A4AD89 /* WYMaterialButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E773F292C9B8543DA24C3353F4418E93 /* Headers */ = {
+		BE5AC57A26554D3E4657D9943198790C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABB1B9D6A6443CD696C407AFD84EC8C /* SwiftHEXColors-umbrella.h in Headers */,
-				7ECB2BBE4DC7585910FF94D282FF637F /* SwiftHEXColors.h in Headers */,
+				C26201A5729DD66B7E04FFEA1819E747 /* Pods-DecoHub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AE14B3CB1879E8C4BE1CCE25519B89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2E6CBE6FA83ADCDFB8EBEB264C2339 /* FloatConversion.h in Headers */,
+				7AC3CC4ECC0856FE0643CF947E1676ED /* pop-umbrella.h in Headers */,
+				4862C876903BE4BD253290825CD06A4E /* POP.h in Headers */,
+				4111A88216E27CC27E8FA23C2E180568 /* POPAction.h in Headers */,
+				6FB0A03B6F34B48A73ECBCB303DC27C9 /* POPAnimatableProperty.h in Headers */,
+				40733099EDA8D59D9FFDD7324FB33350 /* POPAnimation.h in Headers */,
+				3BB651535E686528450ADF95B6A35F64 /* POPAnimationEvent.h in Headers */,
+				1BEB60CEF5747498282F13FC28A68D3C /* POPAnimationEventInternal.h in Headers */,
+				D2C4B5889F23CFEF13FEBB4036665840 /* POPAnimationExtras.h in Headers */,
+				B3862C6BFEFDB5FEE9A6C207BED5ACB6 /* POPAnimationInternal.h in Headers */,
+				D7CDD5BAADBA856784C85EE17F73C4D7 /* POPAnimationPrivate.h in Headers */,
+				E45F03569121AF8823E6BC4A2EB5173F /* POPAnimationRuntime.h in Headers */,
+				70E5FF82D3AC8BBA3798B1451392F151 /* POPAnimationTracer.h in Headers */,
+				6023D9092ECD6664A60842CA8BB39E6B /* POPAnimationTracerInternal.h in Headers */,
+				45E73E273E67C220E55D36F11CBC4270 /* POPAnimator.h in Headers */,
+				A0CDDDF39613951BDC75E48783C75E30 /* POPAnimatorPrivate.h in Headers */,
+				567641ACCCE9BBD5DE41555CF6EF225F /* POPBasicAnimation.h in Headers */,
+				A757B5AA81D38A4EF518580A683EFDE2 /* POPBasicAnimationInternal.h in Headers */,
+				5ABAA8EDBA657CFB9759537A2BF15EAA /* POPCGUtils.h in Headers */,
+				F1AED8EC530BB73B46E6B06082AE4F97 /* POPCustomAnimation.h in Headers */,
+				5ACE95C819A2FAEF7C2599D9FB8FB2C5 /* POPDecayAnimation.h in Headers */,
+				F4887AED54DE8C4199E2EE9C81429B7A /* POPDecayAnimationInternal.h in Headers */,
+				D18F9D361787352A46574C310EC5021F /* POPDefines.h in Headers */,
+				424463A7B66F0559ABDA7E4C16B81127 /* POPGeometry.h in Headers */,
+				46C8D6156D8E4E110EE8EE0BE328B804 /* POPLayerExtras.h in Headers */,
+				E7E6F793E0AD1D61BF3C91192950D689 /* POPMath.h in Headers */,
+				8E6E998494242E4C38185661580B1E7C /* POPPropertyAnimation.h in Headers */,
+				2D1E248EBB03BF2758EEFF047CCBE08D /* POPPropertyAnimationInternal.h in Headers */,
+				C0825701B25FAA292531D796760C6673 /* POPSpringAnimation.h in Headers */,
+				8D3235AB4938345EC74307C388CC67E1 /* POPSpringAnimationInternal.h in Headers */,
+				644F5A6A1E9D3004CF7B734ECCA23316 /* POPSpringSolver.h in Headers */,
+				DC143BF8B19B4B9EA7C1C5901500DCE8 /* POPVector.h in Headers */,
+				4FBFFAA4792109D5D1477CE404F914EA /* TransformationMatrix.h in Headers */,
+				36F3A6E287B84A4B707F0FAF614264DF /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8D695DC10668AD789D44082ADB0A32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0EB7C2A988DAB19A6BCDFB5676A5B5 /* SwiftHEXColors-umbrella.h in Headers */,
+				721C8276F39DCD9790B1F974F20D8C1C /* SwiftHEXColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08E7F213E8546CA31791ED0388F4AF52 /* SwiftHEXColors */ = {
+		1AF0A8FC67B1DA5CC52E626BBEEA1C2F /* WYMaterialButton-WYMaterialButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB292F844ABE586A007DED3D80E5A455 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
+			buildConfigurationList = F9D7303F9DA9F916056C5BE690C26D9D /* Build configuration list for PBXNativeTarget "WYMaterialButton-WYMaterialButton" */;
 			buildPhases = (
-				3E9F74B7D7638C0DAC5F4546FD210905 /* Sources */,
-				7B1C93B488161A2F7A85C886A557DA16 /* Frameworks */,
-				E773F292C9B8543DA24C3353F4418E93 /* Headers */,
+				463FA814D49590B3A690257CC200A58D /* Sources */,
+				F15D095966CBAA8A915C1982A3945F1D /* Frameworks */,
+				9B2A1267DD29348AF9E2F3849568071A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYMaterialButton-WYMaterialButton";
+			productName = "WYMaterialButton-WYMaterialButton";
+			productReference = A50E62B388BE7BB7C005B7FD9C50E361 /* WYMaterialButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		674B0ECC83A3691DD63A8A1F42123221 /* Pods-DecoHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC73F3860740BEEC6FCB9957051C5B39 /* Build configuration list for PBXNativeTarget "Pods-DecoHub" */;
+			buildPhases = (
+				1FF8B4D99C80F176DD4C06A5E42AEEA6 /* Sources */,
+				62C0BE7CFE6039DD1E28F9F01D04880C /* Frameworks */,
+				BE5AC57A26554D3E4657D9943198790C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92658EA7DA454881873318F6F835B1C0 /* PBXTargetDependency */,
+				D923777B0E0004113EA540CC294E8805 /* PBXTargetDependency */,
+				911A2D968FC42F5A5B248F6F7959DE0E /* PBXTargetDependency */,
+			);
+			name = "Pods-DecoHub";
+			productName = "Pods-DecoHub";
+			productReference = 661EF106097BF8D9D05963ECA08B5CA7 /* Pods_DecoHub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B3F330D7D41122ECDC78524EF987057 /* SwiftHEXColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9631F5F92D237797C4BEDAE8E827F80 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
+			buildPhases = (
+				E1FF91D6C0FB0810D88CDC1E2E40EA6B /* Sources */,
+				037C0C20888B624F14E3F1776C1E4331 /* Frameworks */,
+				CA8D695DC10668AD789D44082ADB0A32 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -203,25 +587,44 @@
 			);
 			name = SwiftHEXColors;
 			productName = SwiftHEXColors;
-			productReference = F37177D34C9BB76EFB6FACF62B4006DF /* SwiftHEXColors.framework */;
+			productReference = 3987D17110DD5F7D99AD379D4600B01B /* SwiftHEXColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E3B91FE87D27C5702E8871F5CDC10EB /* Pods-DecoHub */ = {
+		8FE0758CCCF7F68AB545677FE3475889 /* pop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAB4F3FF3C2567F8EA33304053CEB432 /* Build configuration list for PBXNativeTarget "Pods-DecoHub" */;
+			buildConfigurationList = 758FB82344FBF8A4033E62A26F91FB00 /* Build configuration list for PBXNativeTarget "pop" */;
 			buildPhases = (
-				C0D1C44A8A320109F93096B6FA78E823 /* Sources */,
-				484181B200B328F33CCA7173ED46EE50 /* Frameworks */,
-				54A4384752ADB9B8D99D67F5AAD0B280 /* Headers */,
+				01F9CEFC7A0FA311840BD653CC48325F /* Sources */,
+				2A9AE07FEF734EB6880F30A908C94428 /* Frameworks */,
+				C5AE14B3CB1879E8C4BE1CCE25519B89 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62D8E6BFBF021DE77948FCD0DA89641D /* PBXTargetDependency */,
 			);
-			name = "Pods-DecoHub";
-			productName = "Pods-DecoHub";
-			productReference = 402C0070C992BDB35C96CE9F5507F9CB /* Pods_DecoHub.framework */;
+			name = pop;
+			productName = pop;
+			productReference = F207C5FF49E7A2D7F8DB2F233F630AF8 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89270F323B7F639F9185762ED8A3811 /* WYMaterialButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937F76D0A8F761AADA61191996655E65 /* Build configuration list for PBXNativeTarget "WYMaterialButton" */;
+			buildPhases = (
+				281F8C989D1AB9BA9485F404FB868A24 /* Sources */,
+				127F4CB292CB43785201434613D11130 /* Frameworks */,
+				703425DAD52A2C2CB92CE34688B0454F /* Resources */,
+				2F9DC835773DCB39B932C867FAFA44C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229EB80BBBFC8F2CBECFADC393A36556 /* PBXTargetDependency */,
+				B13AC0AB15D84D5881E3C2B51AF15819 /* PBXTargetDependency */,
+			);
+			name = WYMaterialButton;
+			productName = WYMaterialButton;
+			productReference = 90F288D6CFA4E0F5218DDF42CB7ED743 /* WYMaterialButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,49 +644,140 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C4A62419B2BBC7888E7AB236249C4981 /* Products */;
+			productRefGroup = CAFDA260C2C94E5BEB8FB0F18B47EAC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E3B91FE87D27C5702E8871F5CDC10EB /* Pods-DecoHub */,
-				08E7F213E8546CA31791ED0388F4AF52 /* SwiftHEXColors */,
+				674B0ECC83A3691DD63A8A1F42123221 /* Pods-DecoHub */,
+				8FE0758CCCF7F68AB545677FE3475889 /* pop */,
+				7B3F330D7D41122ECDC78524EF987057 /* SwiftHEXColors */,
+				A89270F323B7F639F9185762ED8A3811 /* WYMaterialButton */,
+				1AF0A8FC67B1DA5CC52E626BBEEA1C2F /* WYMaterialButton-WYMaterialButton */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		3E9F74B7D7638C0DAC5F4546FD210905 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		703425DAD52A2C2CB92CE34688B0454F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F511C03AA3AAA3D27135734A2C110CD9 /* SwiftHEXColors-dummy.m in Sources */,
-				349A2B6DC3BD2CFF4A22120A48E772E1 /* SwiftHEXColors.swift in Sources */,
+				152F2C6C2481AFFB5BE446BA28030EC0 /* WYMaterialButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0D1C44A8A320109F93096B6FA78E823 /* Sources */ = {
+		9B2A1267DD29348AF9E2F3849568071A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F9CEFC7A0FA311840BD653CC48325F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36DC116ECAA6E2DA8FBE1227DE5A78CD /* Pods-DecoHub-dummy.m in Sources */,
+				628A3D0DC95A06CDF26225173FD50861 /* pop-dummy.m in Sources */,
+				96B670C68610460337CF60AA93757662 /* POPAnimatableProperty.mm in Sources */,
+				EA5775A13BE6C67B911F229B9D93B228 /* POPAnimation.mm in Sources */,
+				8AA8A94269630794AF6B4023E2DDC568 /* POPAnimationEvent.mm in Sources */,
+				4A0888F071FE6E7EA197AB4D6DCE89E9 /* POPAnimationExtras.mm in Sources */,
+				C4C547C23CA31C443D2927CE1F152AD1 /* POPAnimationRuntime.mm in Sources */,
+				C2175A743F6A04111FE78F06956C3EB5 /* POPAnimationTracer.mm in Sources */,
+				8FFE316EE70A1BEAEE072E6371D28CBA /* POPAnimator.mm in Sources */,
+				49179ADD1D5857EE433512628C4DBA18 /* POPBasicAnimation.mm in Sources */,
+				C0D57F79F41191EC9C47A483C7D97562 /* POPCGUtils.mm in Sources */,
+				DE36A0217E53CCC5A60EF3B649172E79 /* POPCustomAnimation.mm in Sources */,
+				43E3B25E4ACC0352361A3A37B5E8922E /* POPDecayAnimation.mm in Sources */,
+				927A6A3C9FB9DB820459799A43FB50F0 /* POPGeometry.mm in Sources */,
+				184BD8FDD146106C6654744FD8499F95 /* POPLayerExtras.mm in Sources */,
+				9F43C1899AD0FF2738C52652F6D80F6A /* POPMath.mm in Sources */,
+				35051DCAFB0735A623113D4445364B39 /* POPPropertyAnimation.mm in Sources */,
+				610F21D24229F3CF5945CC084ADE5F9B /* POPSpringAnimation.mm in Sources */,
+				755905BD599E9A27254E6A75C6AE0017 /* POPVector.mm in Sources */,
+				122BE3E27CC4AE5B8A3EDB1984A0B339 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF8B4D99C80F176DD4C06A5E42AEEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22BB5256B041F365CDD828F6DF0585 /* Pods-DecoHub-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281F8C989D1AB9BA9485F404FB868A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6BEAA6C1DEE6A0CB5C3E6CFF84445C /* DesignableButton.swift in Sources */,
+				2AED506882BF775429E60BC28CC74929 /* Spring.swift in Sources */,
+				611901E9D7E9BD583902AD0AC556A03B /* SpringAnimation.swift in Sources */,
+				43594764A20377AA441755194C5F9420 /* SpringButton.swift in Sources */,
+				A17A3138B5DC84BA39AD49DE2F888167 /* WYMaterialButton-dummy.m in Sources */,
+				898CE1D1FE639DBF47F3B2F40FAC649B /* WYMaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463FA814D49590B3A690257CC200A58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF91D6C0FB0810D88CDC1E2E40EA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A13B06C29CC6D833EBD7EC2145FD6DA /* SwiftHEXColors-dummy.m in Sources */,
+				4F18BB365B292A9710345802422409A3 /* SwiftHEXColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62D8E6BFBF021DE77948FCD0DA89641D /* PBXTargetDependency */ = {
+		229EB80BBBFC8F2CBECFADC393A36556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WYMaterialButton-WYMaterialButton";
+			target = 1AF0A8FC67B1DA5CC52E626BBEEA1C2F /* WYMaterialButton-WYMaterialButton */;
+			targetProxy = AD30158947BFE28E34B8814271999617 /* PBXContainerItemProxy */;
+		};
+		911A2D968FC42F5A5B248F6F7959DE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 8FE0758CCCF7F68AB545677FE3475889 /* pop */;
+			targetProxy = 1B86799BA222ECC52F06FD260A725C61 /* PBXContainerItemProxy */;
+		};
+		92658EA7DA454881873318F6F835B1C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftHEXColors;
-			target = 08E7F213E8546CA31791ED0388F4AF52 /* SwiftHEXColors */;
-			targetProxy = 47966490F120BC9165C3911128BA21FF /* PBXContainerItemProxy */;
+			target = 7B3F330D7D41122ECDC78524EF987057 /* SwiftHEXColors */;
+			targetProxy = CACFEC0DAD207786BEC4F66E5B6D0E13 /* PBXContainerItemProxy */;
+		};
+		B13AC0AB15D84D5881E3C2B51AF15819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 8FE0758CCCF7F68AB545677FE3475889 /* pop */;
+			targetProxy = 775C5354B03ADC44EADF1DD854B1FD0E /* PBXContainerItemProxy */;
+		};
+		D923777B0E0004113EA540CC294E8805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYMaterialButton;
+			target = A89270F323B7F639F9185762ED8A3811 /* WYMaterialButton */;
+			targetProxy = 6C598732BEAABBED4D1D06691D0332B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		270F755AA73599FE5F0DE4758F3707EE /* Debug */ = {
+		0499F5C4B044EE1488371C3A7AEF5141 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5302E2C1C45A705B147F89BE9DF8BA56 /* SwiftHEXColors.xcconfig */;
+			baseConfigurationReference = 14D6095F3C6E5F1D59315A611CBFA13E /* SwiftHEXColors.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -309,9 +803,21 @@
 			};
 			name = Debug;
 		};
-		3EED1674B4382F59F7F738E532EAA897 /* Debug */ = {
+		368AABED6803A4A93FD3F16ADE8A3EFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5A7448CEA3E9AEFE7DB57E733FDF99A /* Pods-DecoHub.debug.xcconfig */;
+			baseConfigurationReference = F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4B364C2CF85CF2567540F99307A103AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A068E0D4D7886E971EA04EA9E6F68B /* pop.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -320,23 +826,58 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DecoHub/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DecoHub/Pods-DecoHub.modulemap";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DecoHub;
+				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E7A39D069E05F4BF1AAFA716C5D7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYMaterialButton/WYMaterialButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYMaterialButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYMaterialButton/WYMaterialButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76138C866E59538AAF2420F682DD46B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -379,7 +920,65 @@
 			};
 			name = Debug;
 		};
-		BF649AC7202071A2302D32C7E1F31940 /* Release */ = {
+		AA009AAE2F088C86CD75B4EF62A5ACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A068E0D4D7886E971EA04EA9E6F68B /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3ECED648330A8B52E40BCA91A6324C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A7448CEA3E9AEFE7DB57E733FDF99A /* Pods-DecoHub.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DecoHub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecoHub/Pods-DecoHub.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DecoHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C673EF7A3C52F3794F1E145ED83C5F61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72C31CDC88B763AB94335A25C71BD527 /* Pods-DecoHub.release.xcconfig */;
 			buildSettings = {
@@ -409,9 +1008,37 @@
 			};
 			name = Release;
 		};
-		C8A5444944AFBB0862657A8A55BF5A0E /* Release */ = {
+		D85F411DAC02C472FD354866092229A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5302E2C1C45A705B147F89BE9DF8BA56 /* SwiftHEXColors.xcconfig */;
+			baseConfigurationReference = F429AE8A0983D73A2F49B32A1AFB5DBE /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYMaterialButton/WYMaterialButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYMaterialButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYMaterialButton/WYMaterialButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAB4C18EAB3E9750931A824F461DFBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D6095F3C6E5F1D59315A611CBFA13E /* SwiftHEXColors.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -482,20 +1109,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAB4F3FF3C2567F8EA33304053CEB432 /* Build configuration list for PBXNativeTarget "Pods-DecoHub" */ = {
+		758FB82344FBF8A4033E62A26F91FB00 /* Build configuration list for PBXNativeTarget "pop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EED1674B4382F59F7F738E532EAA897 /* Debug */,
-				BF649AC7202071A2302D32C7E1F31940 /* Release */,
+				4B364C2CF85CF2567540F99307A103AD /* Debug */,
+				AA009AAE2F088C86CD75B4EF62A5ACED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB292F844ABE586A007DED3D80E5A455 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
+		937F76D0A8F761AADA61191996655E65 /* Build configuration list for PBXNativeTarget "WYMaterialButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270F755AA73599FE5F0DE4758F3707EE /* Debug */,
-				C8A5444944AFBB0862657A8A55BF5A0E /* Release */,
+				D85F411DAC02C472FD354866092229A4 /* Debug */,
+				6E7A39D069E05F4BF1AAFA716C5D7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9631F5F92D237797C4BEDAE8E827F80 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499F5C4B044EE1488371C3A7AEF5141 /* Debug */,
+				DAB4C18EAB3E9750931A824F461DFBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC73F3860740BEEC6FCB9957051C5B39 /* Build configuration list for PBXNativeTarget "Pods-DecoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ECED648330A8B52E40BCA91A6324C7 /* Debug */,
+				C673EF7A3C52F3794F1E145ED83C5F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D7303F9DA9F916056C5BE690C26D9D /* Build configuration list for PBXNativeTarget "WYMaterialButton-WYMaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76138C866E59538AAF2420F682DD46B1 /* Debug */,
+				368AABED6803A4A93FD3F16ADE8A3EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

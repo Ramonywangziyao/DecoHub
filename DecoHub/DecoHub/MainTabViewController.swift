@@ -10,9 +10,8 @@ import UIKit
 import SwiftHEXColors
 
 class MainTabViewController: UITabBarController {
-    var requestButton:UIButton?
+    @IBOutlet var requestButton:UIButton?
     let thisScreen = UIScreen.mainScreen().bounds
-
     override func viewDidLoad() {
         super.viewDidLoad()
         makeRequestButton()
@@ -36,6 +35,7 @@ class MainTabViewController: UITabBarController {
     
     func addRequest(button:UIButton)
     {
+
         performSegueWithIdentifier("requestSegue", sender: self)
         
     }

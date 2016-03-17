@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '14A64B73B76E13E5197D4474'
+               BlueprintIdentifier = '495DE7739B86CE80462A539D'
                BlueprintName = 'Pods-DecoHub'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_DecoHub.framework'>
