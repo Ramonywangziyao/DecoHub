@@ -8,8 +8,11 @@
 
 import UIKit
 
-class RequestViewController: UIViewController {
-
+class StyleSelectViewController: UIViewController {
+    
+    
+    let cancelButton = UIButton()
+    let thisScreen = UIScreen.mainScreen().bounds
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,11 +24,18 @@ class RequestViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func NextButton(sender: AnyObject) {
+        performSegueWithIdentifier("requestDetail", sender: self)
+    }
+
 
     @IBAction func cancel(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
-        
     }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

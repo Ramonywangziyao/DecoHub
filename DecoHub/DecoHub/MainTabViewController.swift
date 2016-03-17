@@ -27,7 +27,7 @@ class MainTabViewController: UITabBarController {
     
     func makeRequestButton(){
 
-        let requestModel = RequestButtonView(color: "56dbe7", height: self.tabBar.frame.size.height, width: self.tabBar.frame.size.width/3, x: self.tabBar.frame.size.width/3, y: thisScreen.height-self.tabBar.frame.height, title: "Request")
+        let requestModel = RequestButtonView(color: "ffa81f", height: self.tabBar.frame.size.height, width: self.tabBar.frame.size.width/3, x: self.tabBar.frame.size.width/3, y: thisScreen.height-self.tabBar.frame.height, title: "Request")
         requestButton = requestModel.getButton()
         requestButton!.addTarget(self, action: "addRequest:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(requestButton!)
