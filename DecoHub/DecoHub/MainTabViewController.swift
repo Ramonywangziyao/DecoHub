@@ -16,6 +16,7 @@ class MainTabViewController: UITabBarController {
         super.viewDidLoad()
         makeRequestButton()
 
+
         // Do any additional setup after loading the view.
     }
 
@@ -25,11 +26,12 @@ class MainTabViewController: UITabBarController {
     }
     
     func makeRequestButton(){
-
-        let requestModel = RequestButtonView(color: "ffa81f", height: self.tabBar.frame.size.height, width: self.tabBar.frame.size.width/3, x: self.tabBar.frame.size.width/3, y: thisScreen.height-self.tabBar.frame.height, title: "Request")
+        var requestButtonImage = UIImage(named:"requestButton@2x.png")!
+        let requestModel = RequestButtonView(color: "ffa81f", height: self.tabBar.frame.size.height, width: self.tabBar.frame.size.width/3, x: self.tabBar.frame.size.width/3, y: thisScreen.height-self.tabBar.frame.height, title: "Request",img:requestButtonImage)
         requestButton = requestModel.getButton()
         requestButton!.addTarget(self, action: "addRequest:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(requestButton!)
+        self.tabBarController?.tabBar.tintColor = UIColor(hexString:"ffa81f")
         
     }
     

@@ -18,13 +18,14 @@ class RequestButton: NSObject{
     var title:String!
     var color:String
     
-    init(color:String,height:CGFloat,width:CGFloat,x:CGFloat,y:CGFloat,title:String) {
+    init(color:String,height:CGFloat,width:CGFloat,x:CGFloat,y:CGFloat,title:String,img:UIImage) {
         self.color = color
         self.height = height
         self.width = width
         self.x = x
         self.y = y
         self.title = title
+        self.iconImage = img;
     }
 
     

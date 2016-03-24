@@ -23,6 +23,12 @@
 		DA4451B41C9A4E9700AA106F /* RequestNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4451B31C9A4E9700AA106F /* RequestNavigationViewController.swift */; };
 		DA4451B71C9A560F00AA106F /* cross_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451B61C9A560F00AA106F /* cross_icon@2x.png */; };
 		DA4451B91C9AFDFE00AA106F /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4451B81C9AFDFE00AA106F /* RequestDetailViewController.swift */; };
+		DA4451C61C9F602F00AA106F /* homeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451C41C9F602F00AA106F /* homeIcon@2x.png */; };
+		DA4451C71C9F602F00AA106F /* hubIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451C51C9F602F00AA106F /* hubIcon@2x.png */; };
+		DA4451CA1C9F603400AA106F /* homeIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451C81C9F603400AA106F /* homeIcon@3x.png */; };
+		DA4451CB1C9F603400AA106F /* hubIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451C91C9F603400AA106F /* hubIcon@3x.png */; };
+		DA4451CE1C9F610900AA106F /* requestButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451CC1C9F610900AA106F /* requestButton@2x.png */; };
+		DA4451CF1C9F610900AA106F /* requestButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4451CD1C9F610900AA106F /* requestButton@3x.png */; };
 		F26448C4ED64742099484F20 /* Pods_DecoHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A0C9DC6C2A62CFA8A58BE /* Pods_DecoHub.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +74,12 @@
 		DA4451B31C9A4E9700AA106F /* RequestNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestNavigationViewController.swift; sourceTree = "<group>"; };
 		DA4451B61C9A560F00AA106F /* cross_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_icon@2x.png"; sourceTree = "<group>"; };
 		DA4451B81C9AFDFE00AA106F /* RequestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDetailViewController.swift; sourceTree = "<group>"; };
+		DA4451C41C9F602F00AA106F /* homeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeIcon@2x.png"; sourceTree = "<group>"; };
+		DA4451C51C9F602F00AA106F /* hubIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hubIcon@2x.png"; sourceTree = "<group>"; };
+		DA4451C81C9F603400AA106F /* homeIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeIcon@3x.png"; sourceTree = "<group>"; };
+		DA4451C91C9F603400AA106F /* hubIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hubIcon@3x.png"; sourceTree = "<group>"; };
+		DA4451CC1C9F610900AA106F /* requestButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "requestButton@2x.png"; sourceTree = "<group>"; };
+		DA4451CD1C9F610900AA106F /* requestButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "requestButton@3x.png"; sourceTree = "<group>"; };
 		F6CEA0093E1DA8178301049F /* Pods-DecoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-DecoHub/Pods-DecoHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +223,12 @@
 		DA4451B51C9A55FD00AA106F /* img */ = {
 			isa = PBXGroup;
 			children = (
+				DA4451C41C9F602F00AA106F /* homeIcon@2x.png */,
+				DA4451C51C9F602F00AA106F /* hubIcon@2x.png */,
+				DA4451CC1C9F610900AA106F /* requestButton@2x.png */,
+				DA4451CD1C9F610900AA106F /* requestButton@3x.png */,
+				DA4451C81C9F603400AA106F /* homeIcon@3x.png */,
+				DA4451C91C9F603400AA106F /* hubIcon@3x.png */,
 				DA4451B61C9A560F00AA106F /* cross_icon@2x.png */,
 			);
 			name = img;
@@ -324,8 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4451B71C9A560F00AA106F /* cross_icon@2x.png in Resources */,
+				DA4451CF1C9F610900AA106F /* requestButton@3x.png in Resources */,
+				DA4451C61C9F602F00AA106F /* homeIcon@2x.png in Resources */,
+				DA4451C71C9F602F00AA106F /* hubIcon@2x.png in Resources */,
 				DA4451761C98854B00AA106F /* LaunchScreen.storyboard in Resources */,
+				DA4451CE1C9F610900AA106F /* requestButton@2x.png in Resources */,
 				DA4451731C98854B00AA106F /* Assets.xcassets in Resources */,
+				DA4451CA1C9F603400AA106F /* homeIcon@3x.png in Resources */,
+				DA4451CB1C9F603400AA106F /* hubIcon@3x.png in Resources */,
 				DA44516E1C98854B00AA106F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

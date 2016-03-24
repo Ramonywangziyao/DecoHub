@@ -14,9 +14,9 @@ class RequestButtonView{
     let button = UIButton(type: UIButtonType.Custom) as UIButton
     let buttonModel:RequestButton?
     
-    init(color:String,height:CGFloat,width:CGFloat,x:CGFloat,y:CGFloat,title:String){
+    init(color:String,height:CGFloat,width:CGFloat,x:CGFloat,y:CGFloat,title:String,img:UIImage){
         
-        buttonModel = RequestButton(color: color,height: height,width: width,x: x,y: y,title: title)
+        buttonModel = RequestButton(color: color,height: height,width: width,x: x,y: y,title: title,img:img)
         
         
     }
@@ -25,8 +25,7 @@ class RequestButtonView{
 
         
         button.frame = CGRectMake(buttonModel!.x,buttonModel!.y,buttonModel!.width,buttonModel!.height)
-        button.layer.backgroundColor = UIColor(hexString: buttonModel!.color)?.CGColor
-        button.setTitle(buttonModel!.title, forState: UIControlState.Normal)
+        button.setBackgroundImage(buttonModel!.iconImage, forState: UIControlState.Normal)
         return button
     }
        
